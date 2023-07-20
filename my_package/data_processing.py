@@ -5,7 +5,7 @@ import astropy.units as u
 
 def input_data(csv_path):
     # Read the CSV file into a DataFrame
-    df = pd.read_csv('pulsars.csv')
+    df = pd.read_csv(csv_path)
 
     # Add new columns to df
     df['RA (deg)']  = 0
